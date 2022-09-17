@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="myCal.css" />
+    <title>calculator trial</title>
+  </head>
+  <body>
+
+    <h1 
+    style="text-align: center; color: aliceblue; margin-top: 50px;  padding-bottom: 25px;
+     background: black; height: 140px; max-width: 600px; 
+     position: relative; left: 28%; padding-top: 25px;" 
+    >Use me to perform calculation (s) after debugging!</h1>
+
+
+    <div class="calculator-grid">
+      <div class="output-screen">
+        <div data-previous-operand class="previous-operand"></div>
+        <div data-current-operand class="current-operand"></div>
+      </div>
+      <button data-all-clear class="span-two">AC</button>
+      <button data-delete>DEL</button>
+      <button data-operation>÷</button>
+      <button class="btn-num" data-number>1</button>
+      <button class="btn-num" data-number>2</button>
+      <button class="btn-num" data-number>3</button>
+      <button data-operation>*</button>
+      <button class="btn-num" data-number>4</button>
+      <button class="btn-num" data-number>5</button>
+      <button class="btn-num" data-number>6</button>
+      <button data-operation>+</button>
+      <button class="btn-num" data-number>7</button>
+      <button class="btn-num" data-number>8</button>
+      <button class="btn-num" data-number>9</button>
+      <button data-operation>-</button>
+      <button data-number>.</button>
+      <button class="btn-num" data-number>0</button>
+      <button data-equals class="span-two">=</button>
+    </div>
+
+    <!-- comment debugIfYouCan.js an uncomment errorFound.js to see the differences (switch the js files)! -->
+
+    <!-- <script src="errorFound.js"></script> -->
+
+     <script src="debugIfYouCan.js"></script>
+
+    
+  </body>
+</html>
